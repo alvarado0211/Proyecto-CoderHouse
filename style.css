@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+}
+
+/* COLOR DE FONDO PARA TODAS LAS PAGINAS */
+
+body {
+    background-color: #0C59CF;
+}
+
+/* ESTILOS DEL BANNER PARA TODAS LAS PAGINAS */
+
+.banner{    
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner img {
+    width: 100px;
+}
+
+.banner h1 {
+    color: white;
+    flex: auto;
+}
+
+.links li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (min-width: 600px) {
+
+    .banner{    
+        display: flex;
+        padding: 10px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .banner img {
+        width: 100px;
+    }
+    
+    .banner h1 {
+        color: white;
+        flex: auto;
+    }
+    
+    .links li{
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .links a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    }
+
+    @media (min-width: 1020px) {
+
+        .banner{    
+            display: flex;
+            padding: 10px;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .banner img {
+            width: 100px;
+        }
+        
+        .banner h1 {
+            color: white;
+            flex: auto;
+        }
+        
+        .links li{
+            display: inline-block;
+            padding: 10px;
+        }
+        
+        .links a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        }
+
+/* ESTILOS DEL FOOTER PARA TODAS LAS PAGINAS */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F6F6;
+    text-align: center;
+    margin-top: 300px;
+}
+
+footer h3 {
+    color: #7A7A7A;
+}
+
+footer a {
+    text-decoration: none;
+    color: #7A7A7A;
+}
+
+footer h2 {
+    font-size: 15px;
+    color: #AAAAAA;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.redes_sociales h3{
+    padding: 20px;
+}
+
+.redes_sociales a{
+    padding: 20px 10px;
+}
+
+#face img{
+    width: 10%;
+}
+
+#insta img{
+    width: 10%;
+}
+
+#linkdn img{
+    width: 10%;
+}
+
+footer li{
+    display:none;
+    padding: 20px;
+}
+
+#boton-arriba{
+    display:none
+}
+
+@media (min-width: 600px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #F7F6F6;
+        text-align: center;
+        margin-top: 300px;
+    }
+    
+    footer h3 {
+        color: #7A7A7A;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #7A7A7A;
+    }
+    
+    footer h2 {
+        font-size: 15px;
+        color: #AAAAAA;
+        font-style: italic
+    }
+    
+    .redes_sociales h3{
+        display: inline;
+        padding: 10px;
+    }
+    
+    .redes_sociales a{
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    footer li{
+        display: inline-block;
+        padding: 20px;
+    }
+    
+    #boton-arriba{
+        display: block;
+    }
+}
+
+@media (min:width:1020px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #F7F6F6;
+        text-align: center;
+        margin-top: 300px;
+    }
+    
+    footer h3 {
+        color: #7A7A7A;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #7A7A7A;
+    }
+    
+    footer h2 {
+        font-size: 15px;
+        color: #AAAAAA;
+        font-style: italic
+    }
+    
+    .redes_sociales h3{
+        display: inline;
+        padding: 10px;
+    }
+    
+    .redes_sociales a{
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    footer li{
+        display: inline-block;
+        padding: 20px;
+    }
+    
+    #boton-arriba{
+        display: block;
+    }
+}
+
+/* ESTILOS EN PAGINA DE INICIO */
+
+.pagina-inicio section h2 {
+    margin: 1%;
+    text-align: left;
+    color: white;
+}
+
+.pagina-inicio section p {
+    margin: 1%;
+    text-align: left;
+    color: white;
+}
+
+.pagina-inicio section button {
+    border-radius: 5px;
+    border-style: double;
+    border-color: black;
+    margin: 1%;
+    text-align: left;
+}
+
+.pagina-inicio section button a {
+    text-decoration: none;
+}
+
+.pagina-inicio #foto {
+    width: 200px;
+}
+
+.proyectos-inicio h5 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+.proyectos-inicio img {
+    width: 200px;
+    padding: 20px 20px;
+    padding-left: 70px;
+}
+
+
+/* ESTILOS EN PAGINA DE SOBRE MI */
+
+.pagina-about main {
+    color: white;
+}
+
+.pagina-about main h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* ESTILOS EN PAGINA HABILIDADES */
+
+.pagina-habilidades main h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dev-web img {
+    width: 65px;
+}
+
+.dev-web h2 {
+    padding: 15px;
+    color: white;
+}
+
+.dev-web label {
+    color: white;
+    font-weight: bold;
+}
+
+.dev-mobile h2 {
+    padding: 15px;
+    color: white;
+}
+
+.dev-mobile label {
+    color: white;
+    font-weight: bold;
+}
+
+.dev-mobile img {
+    width: 65px;
+}
+
+/* ESTILOS EN PAGINA DE PROYECTOS */
+
+.pagina-projects main h1 {
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.proyectos img {
+    width: 30%;
+    height: 20%;
+    padding: 30px 30px 30px 0px;
+}
+
+/* ESTILOS EN PAGINA DE CONTACTO */
+
+.pagina-contact main h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pagina-contact div {
+    padding-top: 20px;
+}
+
+.pagina-contact label {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.pagina-contact input {
+    padding: 5px;
+}
+
+.pagina-contact main textarea {
+    padding-bottom: 100px;
+    padding-right: 70px;
+}
+
+.pagina-contact select {
+    padding: 15px;
+    font-size: 15px;
+}
+
+.div-enviar {
+    text-align: center;
+}
+
+.div-enviar input {
+    font-size: 25px;
+}

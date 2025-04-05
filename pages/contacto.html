@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Portfolio</title>
+</head>
+
+<body class="pagina-contact">
+    <header class="banner">
+        <img src="../recursos/logo gato.avif" alt="Logo">
+        <h1 id="titulo">@Alvarado Dev</h1>
+        <nav>
+            <ul class="links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Mi</a></li>
+                <li><a href="habilidades.html">Mis habilidades</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+</header>
+    <main>
+        <h1>Contactame</h1>
+        <form action="/submit" method="post"> <!-- Etiqueta contenedora-->
+            <label for="">Nombre:</label>
+            <input type="text" name="" id="">
+            <div></div>
+            <label for="">Apellido:</label>
+            <input type="text" name="" id="">
+            <div></div>
+            <label for="">Numero de telefono:</label>
+            <input type="number" name="" id="">
+            <div></div>
+            <label for="">Email:</label>
+            <input type="email" name="" id="">
+            <div></div>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            <label for="motivo"></label>
+            <select name="" id="">
+                <option value="">Consulta</option>
+                <option value="">Oferta de trabajo</option>
+            </select>
+            <div class="div-enviar">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <!-- Enlace absoluto (hacia un elemento externo o pagina)-->
+        <h3>Mis redes sociales</h3>
+        <a href="https://Facebook.com">Facebook</a>
+        <a href="https://instagram.com">Instagram</a>
+        <a href="https://linkedin.com">Linkedin</a>
+
+        <!--Enlace a una pagina dentro de nuestro proyecto-->
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Mi</a></li>
+                <li><a href="habilidades.html">Mis habilidades</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Enlace hacia algun ID dentro de la pagina, el cual se crea con # en el href-->
+        <a href="#titulo" id="boton-arriba">Volver Arriba</a>
+        <h2>© 2025 Alvarado Dev. All rights reserved.</h2>
+    </footer>
+</body>
+
+</html>
