@@ -76,9 +76,9 @@ ul {
         list-style: none;
     }
     
-    }
+}
 
-    @media (min-width: 1020px) {
+@media (min-width: 1020px) {
 
         .banner{    
             display: flex;
@@ -111,8 +111,7 @@ ul {
         ul {
             list-style: none;
         }
-        
-        }
+}
 
 /* ESTILOS DEL FOOTER PARA TODAS LAS PAGINAS */
 
@@ -213,7 +212,7 @@ footer li{
     }
 }
 
-@media (min:width:1020px) {
+@media (min-width: 1020px) {
     footer {
         display: flex;
         flex-direction: column;
@@ -298,6 +297,14 @@ footer li{
     width: 200px;
     padding: 20px 20px;
     padding-left: 70px;
+}
+
+@media (min-width: 600px) {
+
+}
+
+@media (min-width: 1020px) {
+
 }
 
 
