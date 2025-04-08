@@ -33,33 +33,51 @@
             </nav>
     </header>
     <main>
-        <h1>Mis habilidades</h1>
+        <h2>Mis habilidades</h2>
         <section class="dev-web">
             <h2>Paginas Web</h2>
-            <img src="recursos/htmllogo.jpeg" alt="html">
+            <div id="html5">
+            <img src="../recursos/htmllogo.jpeg" alt="html">
             <label for="">HTML5</label>
-            <img src="recursos/csslogo.png" alt="css">
+            </div>
+            <div id="css3">
+            <img src="../recursos/csslogo.png" alt="css">
             <label for="">CSS</label>
-            <img src="recursos/javascriptlogo.png" alt="javascript">
+            </div>
+            <div id="javascrip">
+            <img src="../recursos/javascriptlogo.png" alt="javascript">
             <label for="">JAVASCRIPT</label>
+            </div>
         </section>
         <section class="dev-mobile">
             <h2>Aplicaciones Movil</h2>
-            <img src="recursos/kotlinlogo.png" alt="kotlin">
+            <div>
+            <img src="../recursos/kotlinlogo.png" alt="kotlin">
             <label for="">KOTLIN</label>
-            <img src="recursos/javalogo.png" alt="java">
+            </div>
+            <div>
+            <img src="../recursos/javalogo.png" alt="java">
             <label for="">JAVA</label>
-            <img src="recursos/flutterlogo.png" alt="flutter">
+            </div>
+            <div>
+            <img src="../recursos/flutterlogo.png" alt="flutter">
             <label for="">FLUTTER</label>
+            </div>
         </section>
     </main>
     <footer>
-        <!-- Enlace absoluto (hacia un elemento externo o pagina)-->
-        <h3>Mis redes sociales</h3>
-        <a href="https://Facebook.com">Facebook</a>
-        <a href="https://instagram.com">Instagram</a>
-        <a href="https://linkedin.com">Linkedin</a>
-
+        <div class="redes_sociales">
+            <h3>Mis redes sociales</h3>
+            <a href="https://Facebook.com" id="face">
+                <img src="../recursos/facebok.png" alt="facebook">
+            </a>
+            <a href="https://instagram.com" id="insta">
+                <img src="../recursos/Instagram_icon.png" alt="instagram">
+            </a>
+            <a href="https://linkedin.com" id="linkdn">
+                <img src="../recursos/linkedin.png" alt="linkedin">
+            </a>
+        </div>
         <!--Enlace a una pagina dentro de nuestro proyecto-->
         <nav>
             <ul>
@@ -72,6 +90,7 @@
         </nav>
 
         <!-- Enlace hacia algun ID dentro de la pagina, el cual se crea con # en el href-->
+
         <a href="#titulo" id="boton-arriba">Volver Arriba</a>
         <h2>© 2025 Alvarado Dev. All rights reserved.</h2>
     </footer>
