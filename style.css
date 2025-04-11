@@ -513,7 +513,7 @@ footer li{
 
 .dev-mobile div:not(:hover){
     filter: blur(5px);
-    opacity: 0.5;
+    
 }
 .dev-mobile div{
     display: grid;
