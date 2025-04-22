@@ -1,0 +1,9 @@
+/* DECLARACION DE VARIABLE */
+
+$primary-color: #3498db;
+
+/* UTLIZACIÓN DE VARIABLE */
+
+body{
+    background-color: $primary-color;
+}
